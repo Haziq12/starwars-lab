@@ -1,14 +1,15 @@
 .starship {
   background-color: lightgreen;
   height: 100px;
-  width: 200px;
+  width: auto;
   margin: 15px;
+  text-align: center;
 }
 
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  
+  margin: 200px auto auto auto;
 }
 
 .nav {
@@ -19,3 +20,25 @@
   padding: 10px 0;
   margin: 0px 0px 10px 0px;
 }
+
+.details {
+  background-color: lightgreen;
+  height: auto;
+  width: 300px;
+  margin: 200px auto auto auto;
+  text-align: center;
+  padding: 30px;
+  
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  padding: 7px 25px;
+  border-radius: 8px;
+  background-color: bisque;
+  
+}
+

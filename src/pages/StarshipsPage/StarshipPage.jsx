@@ -17,11 +17,14 @@ const StarshipPage = (props) => {
     <>
 
     <h1>Starship Details</h1>
-      <>
-            <h4 >{starshipDetails.name}</h4>
-            <h5>{starshipDetails.model}</h5>
-            <Link to='/' >Return</Link>
-      </>
+    {starshipDetails.length ? 
+      <div className='details'>
+            <h4 >NAME: {starshipDetails.name}</h4>
+            <h4>MODEL: {starshipDetails.model}</h4>
+            <Link to='/' ><button>Return</button></Link>
+      </div>
+      : 'Loading Details'
+      }
      
 
     </>
