@@ -1,15 +1,31 @@
+body {
+  background-color: gray;
+}
+
 .starship {
-  background-color: lightgreen;
+  background-color: burlywood;
   height: 100px;
   width: auto;
   margin: 15px;
   text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  
+}
+
+h4 {
+  color: black;
+  
 }
 
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 200px auto auto auto;
+}
+
+Link {
+  color: white;
 }
 
 .nav {
@@ -28,7 +44,8 @@
   margin: 200px auto auto auto;
   text-align: center;
   padding: 30px;
-  
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 5px;
 }
 
 h1 {

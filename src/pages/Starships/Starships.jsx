@@ -24,7 +24,7 @@ const Starships = (props) => {
                 to='/StarshipPage'
                 state = {{starship}}
               >
-                {starship.name}
+                <h3>{starship.name}</h3>
               </Link>
             </div>
           )}
