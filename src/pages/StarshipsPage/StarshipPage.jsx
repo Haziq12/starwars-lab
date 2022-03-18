@@ -7,8 +7,10 @@ import { Link } from 'react-router-dom';
 const StarshipPage = (props) => {
   const [starshipDetails, setStarshipDetails] = useState({})
   let location = useLocation()
+  console.log('location:', location)
 
   useEffect(() => {
+    console.log(location.state.starship.url)
     getDetails(location.state.starship.url)
     .then(starshipDetails => setStarshipDetails(starshipDetails))
   }, [])
